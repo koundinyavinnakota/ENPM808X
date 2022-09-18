@@ -12,25 +12,25 @@ using std::string;
 using std::vector;
 using std::streamsize;
 
-void readWords(vector<string>&wordList){
+auto ReadWords(vector<string>&word_list){
     cout<<" Start entering words"<<endl;
     string temp;
     while(cin>>temp){
-        wordList.push_back(temp);
+        word_list.push_back(temp);
 
     }
     cout<<"******"<<"Words List"<<"******"<<endl;
-    for(int i=0;i<wordList.size();i++){
+    for(int i=0;i<word_list.size();i++){
         
-        cout<<wordList[i]<<endl;
+        cout<<word_list[i]<<endl;
     }
 }
-void countNumberOfWords(vector<string> list)
+auto CountNumberOfWords(vector<string> list)
 {
     int counter = list.size();
     
     string temp;
-    vector<int> matchcounter;
+    vector<int> match_counter;
     for(auto it = 0;it<list.size();it++)
     {
         int temp = 0;
@@ -43,7 +43,7 @@ void countNumberOfWords(vector<string> list)
                 
         }
       
-        matchcounter.push_back(temp);
+        match_counter.push_back(temp);
         
     }
         
@@ -51,15 +51,15 @@ void countNumberOfWords(vector<string> list)
     cout<<" Number of words in the list : "<<counter<<endl;
     cout<<" Number of times each word occured "<<endl;
     for(auto iterator = 0;iterator<list.size();iterator++){
-        cout<<list[iterator]<<" - "<<matchcounter[iterator]<<endl;
+        cout<<list[iterator]<<" - "<<match_counter[iterator]<<endl;
     }
 }
 
 
 int main(){
-    vector<string> wordList;
-    readWords(wordList);
-    countNumberOfWords(wordList);
+    vector<string> word_list;
+    ReadWords(word_list);
+    CountNumberOfWords(word_list);
     return 0;
 }
 
