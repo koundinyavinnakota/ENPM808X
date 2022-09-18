@@ -15,7 +15,7 @@ using std::setprecision;
 using std::streamsize;
 
 
-double computeGrade(double midterm,double final,double median){
+double ComputeGrade(double midterm,double final,double median){
     streamsize prec = cout.precision();
     cout << "Your final grade is " << setprecision(3)
         << 0.2 * midterm + 0.4 * final + 0.4 * median
@@ -23,7 +23,7 @@ double computeGrade(double midterm,double final,double median){
     return 0.2 * midterm + 0.4 * final + 0.4 * median;
 }
 
-void classGrades(vector<string> &names,vector<double> finalGrades ){
+void ClassGrades(vector<string> &names,vector<double> finalGrades ){
      cout<<"***************** Final Grades of students ********************"<<endl;
     for(int i = 0; i<names.size();i++){
        
@@ -33,7 +33,7 @@ void classGrades(vector<string> &names,vector<double> finalGrades ){
 
 int main(){
     vector<string> names;
-    vector<double> finalGrades;
+    vector<double> final_grades;
     int counter_1 = 0;
     while(counter_1<5){
         cout<< "Please enter your name !!!"<< endl;
@@ -64,9 +64,9 @@ int main(){
         double median;
         median = size % 2 == 0 ? (homework[size/2] + homework[(size/2)-1]) / 2
                                     : homework[size/2];
-        finalGrades.push_back(computeGrade(midterm, final,  median));
+        final_grades.push_back(ComputeGrade(midterm, final,  median));
         counter_1++;
     }
-    classGrades(names,  finalGrades);
+    ClassGrades(names,  final_grades);
     return 0;
 }
