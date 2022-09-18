@@ -14,7 +14,7 @@ using std::streamsize;
 
 
 
-void calculateAverage(vector<double>&numbers){
+auto CalculateAverage(vector<double>&numbers){
     double temp = 0;
     cout<< "Enter numbers to find average "<<endl;
     while(cin>>temp){
@@ -31,5 +31,5 @@ void calculateAverage(vector<double>&numbers){
 }
 int main(){
     vector<double> numbers;
-    calculateAverage(numbers);
+    CalculateAverage(numbers);
 }
