@@ -1,5 +1,4 @@
 #include <SearchString.cpp>
-int main(){
-    Search();
-    
-}
+int main() {
+    Search(); 
+    }

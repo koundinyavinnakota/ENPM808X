@@ -63,9 +63,20 @@ class StudentGradeCalculator{
         string grade;
         cout <<" Please enter student's ID and grade to be modified in the subsequent line " << endl;
         cin >> id >> grade;
+        int temp1 = 0;
+        int temp2 = 0;
+        // Error handling
+        for ( int i = 0; i < sizeof(student_id)/sizeof(student_id[0]); i++ ) {
+            if ( student_id[i] == id ) { temp1 = 1;}
+            if ( student_grades[i] == grade) { temp2 = 1;}
+        }
+        if ( temp1 == 0 || temp2 ==0 ) {
+            exit(0);
+        }
         // Modifying the student grade using ID
         // Please note that the user input for id's starts from 1 not 0.
         student_grades[id-1] = grade;
+        cout << " Student grade successfully modified " << endl;
     }
     /**
      * @brief Function to print out the entire class ids and grades

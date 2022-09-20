@@ -1,7 +1,7 @@
 #include "CalculateAverage.hpp"
 
 
-auto CalculateAverage(vector<double>&numbers) {
+void CalculateAverage(vector<double>numbers) {
     double temp = 0;
     cout << "Enter numbers to find average " << endl;
     // function to input values from user.
@@ -11,6 +11,7 @@ auto CalculateAverage(vector<double>&numbers) {
         numbers.push_back(temp);
     }
     if ( numbers.empty() ) {
+        cout << " No Valid input entered " << endl;
         exit(0);
     }
     // typedef is used to create a vector object size

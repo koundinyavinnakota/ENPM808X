@@ -1,4 +1,4 @@
-#include <GradeCalculator.hpp>
+#include "GradeCalculator.cpp"
 int main() {
     vector<string> names;
     vector<double> final_grades;

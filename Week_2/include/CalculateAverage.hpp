@@ -19,4 +19,4 @@ using std::streamsize;
  * @param numbers - reference of the numbers vector.
  * @return auto - it does not return any value, instead prints out the calculated average value.
  */
-auto CalculateAverage(vector<double>&numbers);
+void CalculateAverage(vector<double>numbers);

@@ -1,4 +1,4 @@
-#include <StringConcatenation.hpp>
+#include <StringConcatenation.cpp>
 int main() {
     // vector definition
     vector<string> words;

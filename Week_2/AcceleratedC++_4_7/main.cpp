@@ -1,4 +1,4 @@
-#include <CalculateAverage.hpp>
+#include <CalculateAverage.cpp>
 int main() {
     // vector definition
     vector<double> numbers;
