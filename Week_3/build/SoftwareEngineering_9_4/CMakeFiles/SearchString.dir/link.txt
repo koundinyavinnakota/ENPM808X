@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/SearchString.dir/main.cpp.o  -o SearchString 
