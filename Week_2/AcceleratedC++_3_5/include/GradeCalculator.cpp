@@ -26,7 +26,8 @@ double ComputeGrade(double midterm, double final, double median) {
  * @param finalGrades 
  */
 void ClassGrades(vector<string> &names, vector<double> finalGrades ) {
-    cout << "***************** Final Grades of students ********************" << endl;
+    cout << "***************** Final Grades of students *****************"
+     "***" << endl;
     for (int i = 0; i < names.size() ; i++) {
        // statement to print names and grades onto the output stream
         cout << "      " << names[i] << "  -  " << finalGrades[i] << endl;
