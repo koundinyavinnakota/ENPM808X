@@ -21,7 +21,7 @@ Run program: ./app/StudentGradeCalculator
 For Main.cpp
 cd SoftwareEngineering_9_4/app
 cpplint main.cpp > ../results/main_output.txt
-For Main.cpp
+For SearchString.cpp
 cd SoftwareEngineering_9_4/include
 cpplint SearchString.cpp > ../results/SearchString_output.txt
 ```
