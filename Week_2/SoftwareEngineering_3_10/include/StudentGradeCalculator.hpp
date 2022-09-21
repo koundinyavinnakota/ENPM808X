@@ -61,7 +61,8 @@ class StudentGradeCalculator{
     void ChangeGrade() {
         int id;
         string grade;
-        cout <<" Please enter student's ID and grade to be modified in the subsequent line " << endl;
+        cout <<" Please enter student's ID and grade to be modified"
+        " in the subsequent line " << endl;
         cin >> id >> grade;
         int temp1 = 0;
         int temp2 = 0;
@@ -86,7 +87,8 @@ class StudentGradeCalculator{
         cout << "** Class Grades are **" << endl;
         cout << " ID " << "  " << " Grade " << endl;
         for ( auto i = 0; i < sizeof(student_id)/sizeof(student_id[0]); i++ ) {
-            cout << "  " << student_id[i] << "   -   " << student_grades[i] << endl;
+            cout << "  " << student_id[i] << "   -   "
+            << student_grades[i] << endl;
         }
     }
     /**

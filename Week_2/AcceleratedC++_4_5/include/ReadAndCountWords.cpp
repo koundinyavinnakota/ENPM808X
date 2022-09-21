@@ -37,7 +37,8 @@ auto CountNumberOfWords(vector<string> list) {
     vector<int> word_count;        // To store the count of words.
     int repetition_count{0};  // To keep track of repeated.words
     bool flag{false};
-
+    // Iterating through loops to find the number of
+    // times each word has been repeated.
     for (int i = 0; i < list.size(); i++) {
         // To append unique words.
         if (vector_unique.empty()) {
@@ -70,13 +71,13 @@ auto CountNumberOfWords(vector<string> list) {
     }
 
 
-    // Iterating through loops to find the number of
-    // times each word has been repeated.
+ 
     // total number of words entered by the user.
     cout << " Number of words in the list : " << counter << endl;
     cout << " Number of times each word occured " << endl;
     // Statement to print the list of words with their instances
     for ( auto iterator = 0 ; iterator < word_count.size() ; iterator++ ) {
-        cout << vector_unique[iterator] << " - " << word_count[iterator] << endl;
+        cout << vector_unique[iterator] << " - "
+        << word_count[iterator] << endl;
     }
 }

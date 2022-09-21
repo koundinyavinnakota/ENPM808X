@@ -5,7 +5,7 @@
  * @return int - 0, if there is no error in the code.
  */
 
-#include "include/SearchString.hpp"
+#include "SearchString.hpp"
 
 /**
  * @brief The function Search asks user for input and 

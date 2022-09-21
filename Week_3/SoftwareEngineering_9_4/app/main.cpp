@@ -5,7 +5,7 @@
  * @return int - 0, if there is no error in the code.
  */
 
-#include "include/SearchString.cpp"
+#include "SearchString.cpp"
 
 int main() {
     Search();

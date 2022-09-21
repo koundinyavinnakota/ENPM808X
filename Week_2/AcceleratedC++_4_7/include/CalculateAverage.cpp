@@ -3,7 +3,8 @@
 
 void CalculateAverage(vector<double>numbers) {
     double temp = 0;
-    cout << "Enter numbers to find average " << endl;
+    cout << "Enter numbers to find average, after entering each number "
+    "click ENTER" << endl;
     // function to input values from user.
     // When finished entering values "Ctrl + D"
     // This signifies end of terminal line input for linux

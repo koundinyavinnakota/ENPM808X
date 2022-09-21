@@ -1,4 +1,4 @@
-# AcceleratedC++_3_5
+# AcceleratedC++_4_5
 ---
 
 ## Dependencies
@@ -7,12 +7,12 @@
 
 ## Steps to run the project
 ```
-cd AcceleratedC++_3_5
+cd AcceleratedC++_4_5
 mkdir build
 cd build
 cmake ..
 make
-Run program: ./app/GradeCalculator
+Run program: ./app/ReadAndCountWords
 ```
 
 ## Key Points to remember

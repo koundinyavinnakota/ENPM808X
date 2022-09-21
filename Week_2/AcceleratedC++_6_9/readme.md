@@ -1,18 +1,19 @@
-# AcceleratedC++_3_5
+# AcceleratedC++_6_9
 ---
 
 ## Dependencies
 - C++ 
 - CMake
 
+
 ## Steps to run the project
 ```
-cd AcceleratedC++_3_5
+cd AcceleratedC++_6_9
 mkdir build
 cd build
 cmake ..
 make
-Run program: ./app/GradeCalculator
+Run program: ./app/StringConcatenation
 ```
 
 ## Key Points to remember

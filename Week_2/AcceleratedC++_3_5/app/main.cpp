@@ -11,16 +11,18 @@ int main() {
     int counter_1 = 0;
     // Input from user
     while (counter_1 < 5) {
-        cout<< "Please enter your name !!!"<< endl;
+        cout<< "Please enter your name !!! and press ENTER"<< endl;
         string name;
         cin >> name;
         names.push_back(name);
         cout << " Hi " << name << " nice to meet you !!" << endl;
-        cout << " Please enter you midterm and final grades: " << endl;
+        cout << " Please enter you midterm and press ENTER and final"
+        "grades and press ENTER : " << endl;
         double midterm, final;
         cin >> midterm >> final;
         // User needs to enter atleast five homework grades.
-        cout << "Enter five of your home work grades :" << endl;
+        cout << "Enter five of your home work grades, after"
+        " each grade and press ENTER :" << endl;
         vector<double> homework;
         double temp;
         int counter_2 = 0;
@@ -36,7 +38,8 @@ int main() {
         typedef vector<double>::size_type vector_size;
         vector_size size = homework.size();
         if (size == 0) {
-            cout << " You must enter atleast one homework grade to calcuate your final grade " << endl;
+            cout << " You must enter atleast one homework grade to calcuate"
+            "your final grade " << endl;
             return 1;
         }
         // using the sort alogorithm to channel the entered

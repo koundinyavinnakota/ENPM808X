@@ -1,18 +1,20 @@
-# AcceleratedC++_3_5
+# AcceleratedC++_4_7
 ---
 
 ## Dependencies
 - C++ 
 - CMake
+- Cpplint
+- Cppcheck
 
 ## Steps to run the project
 ```
-cd AcceleratedC++_3_5
+cd AcceleratedC++_4_7
 mkdir build
 cd build
 cmake ..
 make
-Run program: ./app/GradeCalculator
+Run program: ./app/CalculateAverage
 ```
 
 ## Key Points to remember
