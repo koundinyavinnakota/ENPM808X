@@ -14,7 +14,8 @@ cmake ..
 make
 Run program: ./app/GradeCalculator
 ```
-
+## Activity Diagram 
+![Activity Diagram](Activity_Diagram_3_5.png "Activity Diagram")
 ## Key Points to remember
 ```
 - To end terminal line input press " Ctrl + D "

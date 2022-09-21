@@ -15,7 +15,8 @@ cmake ..
 make
 Run program: ./app/StringConcatenation
 ```
-
+## Activity Diagram 
+![Activity Diagram](Activity Diagram_q6_9.png "Activity Diagram")
 ## Key Points to remember
 ```
 - To end terminal line input press " Ctrl + D "

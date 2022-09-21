@@ -16,7 +16,8 @@ cmake ..
 make
 Run program: ./app/CalculateAverage
 ```
-
+## Activity Diagram 
+![Activity Diagram](Activity Diagram_4_7.png "Activity Diagram")
 ## Key Points to remember
 ```
 - To end terminal line input press " Ctrl + D "

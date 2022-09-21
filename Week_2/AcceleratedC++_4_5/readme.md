@@ -14,7 +14,8 @@ cmake ..
 make
 Run program: ./app/ReadAndCountWords
 ```
-
+## Activity Diagram 
+![Activity Diagram](Activity_diagram_4_5.png "Activity Diagram")
 ## Key Points to remember
 ```
 - To end terminal line input press " Ctrl + D "
