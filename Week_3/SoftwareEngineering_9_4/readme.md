@@ -26,7 +26,7 @@ cd SoftwareEngineering_9_4/include
 cpplint SearchString.cpp > ../results/SearchString_output.txt
 ```
 ## Activity Diagram 
-xfun::embed_file("Activity Diagram_sof_Dev_q9_4.pdf")
+![Activity Diagram](SearchString_Activity_Diagram.png "Activity Diagram")
 ## Key Points to remember
 ```
 - To end terminal line input press " Ctrl + D "
