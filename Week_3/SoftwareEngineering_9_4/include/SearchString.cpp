@@ -1,4 +1,11 @@
-#include "SearchString.hpp"
+/**
+ * @author - Koundinya Vinnakota
+ * @version - 0.1
+ * @copyright - 2022 - vkd@umd.edu
+ * @return int - 0, if there is no error in the code.
+ */
+
+#include "include/SearchString.hpp"
 
 /**
  * @brief The function Search asks user for input and 
@@ -17,12 +24,13 @@ void Search() {
     string array_to_search1;
     cout << " Enter the string to search " << endl;
     cin >> array_to_search1;
-    if ( array_to_search1.empty() && text.empty() ) {
+    if (array_to_search1.empty() && text.empty()) {
         cout << " No Valid input entered " << endl;
         exit(0);
     }
     int position1 = -1;
-    // Iterating through main string to find position of substring in the main string.
+    // Iterating through main string to find position of
+    // substring in the main string.
     for (i=0; i < (text.length() - array_to_search1.length())+1; i++) {
         bool found = true;
         for (j=0; j < array_to_search1.length(); j++) {
